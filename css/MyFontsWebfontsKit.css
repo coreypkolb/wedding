@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3237398, 2016-06-23T15:43:25-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: QuotesScript-Regular by Sudtipos
+ * URL: http://www.myfonts.com/fonts/sudtipos/quotes/script/
+ * Copyright: Copyright (c) 2015 Designed by Yanina Arabena &amp; Guille Vizzari. Published by Sudtipos. Production Ale Paul. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3237398
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/316616");
+
+  
+@font-face {font-family: 'QuotesScript-Regular';src: url('../webfonts/316616_0_0.eot');src: url('../webfonts/316616_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/316616_0_0.woff2') format('woff2'),url('../webfonts/316616_0_0.woff') format('woff'),url('../webfonts/316616_0_0.ttf') format('truetype');}
+ 

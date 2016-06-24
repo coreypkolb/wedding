@@ -1,0 +1,59 @@
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px; }
+
+header {
+  min-height: 80vh;
+  padding: 80px;
+  background: url(/img/corey-steph.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  text-align: center;
+  position: relative; }
+  header:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/img/filmscratches.gif);
+    mix-blend-mode: multiply;
+    background-size: cover;
+    background-position: bottom center;
+    text-align: center; }
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 3em;
+  color: #bfb7a2;
+  mix-blend-mode: multiply;
+  letter-spacing: .4em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif; }
+
+h2 {
+  font-size: 2em;
+  letter-spacing: .2em; }
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 18px; }
+
+.quotes {
+  font-family: QuotesScript-Regular;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none; }
+
+.intro {
+  font-size: 4.5em;
+  line-height: 1em; }
+
+.joiner {
+  padding-right: .5em; }
