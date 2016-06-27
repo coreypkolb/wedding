@@ -2256,6 +2256,28 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/img\/corey-steph-2-sm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86681,
+		"inputAbbreviatedPath": "\/img\/corey-steph-2-sm.jpg",
+		"outputAbbreviatedPath": "\/img\/corey-steph-2-sm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/corey-steph-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.29053e+06,
+		"inputAbbreviatedPath": "\/img\/corey-steph-2.jpg",
+		"outputAbbreviatedPath": "\/img\/corey-steph-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/corey-steph.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2263,6 +2285,61 @@
 		"initialSize": 550247,
 		"inputAbbreviatedPath": "\/img\/corey-steph.jpg",
 		"outputAbbreviatedPath": "\/img\/corey-steph.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/plants.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114684,
+		"inputAbbreviatedPath": "\/img\/plants.jpg",
+		"outputAbbreviatedPath": "\/img\/plants.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/steph-corey-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.05062e+06,
+		"inputAbbreviatedPath": "\/img\/steph-corey-2.jpg",
+		"outputAbbreviatedPath": "\/img\/steph-corey-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/steph-corey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.27622e+06,
+		"inputAbbreviatedPath": "\/img\/steph-corey.jpg",
+		"outputAbbreviatedPath": "\/img\/steph-corey.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/steph-sm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63914,
+		"inputAbbreviatedPath": "\/img\/steph-sm.jpg",
+		"outputAbbreviatedPath": "\/img\/steph-sm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/steph.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 999454,
+		"inputAbbreviatedPath": "\/img\/steph.jpg",
+		"outputAbbreviatedPath": "\/img\/steph.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
