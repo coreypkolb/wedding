@@ -40,6 +40,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/csswizardry-grids.css">
+        <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
         <link rel="stylesheet" href="css/master.css">
         
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -53,7 +54,7 @@
         <!-- Add your site or application content here -->
         <header>
              
-            <h1><span class="topper">Stephanie <span class="quotes joiner">and</span> Corey </span><br><span class="mid intro quotes">Gettin' Hitched</span> <br><span class="bottom">11/18/2016</span></h1>
+            <h1 data-aos="fade-up" data-aos-duration="100000" ><span class="topper">Stephanie <span class="quotes joiner">and</span> Corey </span><br><span class="mid intro quotes">Gettin' Hitched</span> <br><span class="bottom">11/18/2016</span></h1>
             
         </header>
 
@@ -61,7 +62,7 @@
             <div class="grid">
                 <div class="grid__item lap--one-third  desk--one-half palm--one-whole">
                     <div class="img-wrap left">
-                        <img style="width: 100%;" src="img/steph-sm.jpg" >
+                        <img data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="center-bottom" style="width: 100%;" src="img/steph-sm.jpg" >
                     </div>
                 </div>
                 <div class="grid__item lap--two-thirds  desk--one-half copy palm--one-whole ">
@@ -114,7 +115,7 @@
 
                 <div class="grid__item lap--one-half  desk--one-half">
                     <div class="img-wrap right">
-                        <img style="width: 100%;" src="img/steph-corey.jpg" >
+                        <img data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="center-bottom" style="width: 100%;" src="img/steph-corey.jpg" >
                     </div>
                 </div>
             </div>
@@ -122,7 +123,7 @@
 
                 <div class="grid__item lap--one-half  desk--one-half">
                     <div class="img-wrap left">
-                        <img style="width: 100%;" src="img/corey-steph-2-sm.jpg" >
+                        <img data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="center-bottom" style="width: 100%;" src="img/corey-steph-2-sm.jpg" >
                     </div>
                 </div>
 
@@ -137,24 +138,24 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="grid__item lap--one-whole  desk--one-wholeX">
+                <div class="grid__item lap--one-whole  desk--one-whole">
                     <h2>RSVP</h2>
                 </div>
                     <form>
-                        <div class="form-group">
+                        <div class="grid__item form-group lap--one-third  desk--one-third">
                             <label>Full Name</label>
                             <input type="text">
                         </div>
-                        <div class="form-group">
+                        <div class="grid__item form-group lap--one-third  desk--one-third">
                             <label>Name of Guest(s)</label>
                             <input type="text">
                         </div>
-                        <div class="form-group">
+                        <div class="grid__item form-group lap--one-third  desk--one-third">
                             <label>Number Attending</label>
                             <input type="number">
                         </div>
-                        <div class="form-group'>
-                            <input type="submit">
+                        <div class="grid__item form-group lap--one-third  desk--one-third">
+                            <input class="btn" type="submit" value="RSVP">
                         </div>
                     </form>
                 </div>
@@ -166,7 +167,13 @@
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script src="js/plugins.js"></script>
+        <script src="js/aos.js"></script>
         <script src="js/main.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

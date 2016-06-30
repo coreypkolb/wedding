@@ -88,7 +88,7 @@ p{
 }
 .bottom{
 	display: block;
-	margin-top: -2em;
+	margin-top: -1.25em;
 	padding-left: 1.5em;
 	@media only screen and (max-width: 900px) {
 		
@@ -101,7 +101,7 @@ p{
 .topper{
 	padding-left: 1.5em;
 	display: block;
-	margin-bottom: -1em;
+	margin-bottom: -1.4em;
 }
 body{
 	background: #f4f2ea;
@@ -127,7 +127,7 @@ header{
 	//background: url(/img/steph-corey-2.jpg);
 	background: url(/img/corey-steph.jpg);
 	background-size: cover;
-	background-position: right bottom;
+	background-position: center bottom;
 	text-align: center;
 	position: relative;
 	@media only screen and (max-width: 1120px) {
@@ -135,9 +135,12 @@ header{
 	}
 	@media only screen and (max-width: 1120px) {
 		padding:80px 30px;
+		min-height: 0;
 	}
-	@media only screen and (max-width: 400px) {
-		height: auto;
+	@media only screen and (max-width: 500px) {
+		
+	    padding: 40px 30px;
+	    min-height: 0;
 	}
 	&:before{
 		content: '';
@@ -241,7 +244,7 @@ a{
 	    }
 	}
 }
-a.btn{
+.btn{
 	display: block;
 	border: 3px solid #cca346;
 	padding: 18px 36px;
@@ -278,4 +281,19 @@ a.btn{
 			left: -3px;
 		}
 	}
+}
+
+//
+
+// Form
+
+//
+
+input,label{
+	display: block;
+	width: 90%;
+	font-family: 'Lora', serif;
+}
+input{
+	padding: 9px;
 }
