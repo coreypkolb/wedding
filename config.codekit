@@ -2583,6 +2583,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/steph-corey-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88638,
+		"inputAbbreviatedPath": "\/img\/steph-corey-3.jpg",
+		"outputAbbreviatedPath": "\/img\/steph-corey-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/steph-corey.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
