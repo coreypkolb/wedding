@@ -2528,28 +2528,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/img\/corey-steph-2-sm.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 86681,
-		"inputAbbreviatedPath": "\/img\/corey-steph-2-sm.jpg",
-		"outputAbbreviatedPath": "\/img\/corey-steph-2-sm.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/corey-steph-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.29053e+06,
-		"inputAbbreviatedPath": "\/img\/corey-steph-2.jpg",
-		"outputAbbreviatedPath": "\/img\/corey-steph-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/corey-steph.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
