@@ -100,8 +100,8 @@ body {
   padding: 24px; }
 
 header {
-  min-height: 100vh;
-  padding: 160px 80px;
+  min-height: 85vh;
+  padding: 160px 80px 0;
   background: url(../img/corey-steph.jpg);
   background-size: cover;
   background-position: center bottom;
