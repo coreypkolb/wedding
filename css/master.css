@@ -72,13 +72,13 @@ p {
 
 .joiner {
   padding-right: .5em; }
-  @media only screen and (max-width: 360px) {
+  @media only screen and (max-width: 358px) {
     .joiner {
       display: none; } }
 
 .bottom {
   display: block;
-  margin-top: -1.25em;
+  margin-top: -2.2em;
   padding-left: 1.5em; }
 
 .mid {
@@ -88,7 +88,7 @@ p {
 .topper {
   padding-left: 1.5em;
   display: block;
-  margin-bottom: -1.4em; }
+  margin-bottom: -1em; }
 
 body {
   background: #f5f4f0;
