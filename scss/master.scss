@@ -139,7 +139,7 @@ header{
 	}
 	@media only screen and (max-width: 500px) {
 		
-	    padding: 40px 30px;
+	    padding: 10px 30px 40px;
 	    min-height: 0;
 	}
 	&:before{
@@ -154,6 +154,10 @@ header{
 		background-size: cover;
 		background-position: center bottom;
 	}
+}
+.cta{
+	background: red;
+	padding: 40px;
 }
 .grid{
 	clear: both;
@@ -207,6 +211,7 @@ header{
 	}
 }
 
+/*
 a{
 	position: relative;
 	display: inline-block;
@@ -244,6 +249,7 @@ a{
 	    }
 	}
 }
+*/
 .btn{
 	display: block;
 	border: 3px solid #cca346;
