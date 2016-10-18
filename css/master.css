@@ -99,6 +99,8 @@ body {
   max-width: 1600px;
   margin: 60px auto;
   padding: 24px; }
+  .wrapper.last {
+    margin: 0 auto; }
 
 header {
   min-height: 85vh;
@@ -258,4 +260,14 @@ input {
   padding: 9px; }
 
 .flower-bg {
-  background-image: url(../img/ge-flower-bg.jpg); }
+  background-image: url(../img/ge-flower-bg.jpg);
+  background-size: cover; }
+  .flower-bg.grid {
+    margin-bottom: 0; }
+  .flower-bg h2 {
+    margin: 60px 0 0 0; }
+  .flower-bg .btn {
+    margin-top: .5em; }
+  .flower-bg img {
+    width: 100%;
+    fill: #cca346; }

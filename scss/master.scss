@@ -112,7 +112,9 @@ body{
 	max-width: 1600px;
 	margin:60px auto;
 	padding: 24px;
-
+	&.last{
+		margin: 0 auto;
+	}
 }
 
 //
@@ -307,5 +309,18 @@ input{
 
 .flower-bg{
 	background-image: url(../img/ge-flower-bg.jpg);
-	//background-size: cover;
+	background-size: cover;
+	&.grid{
+		margin-bottom: 0;
+	}
+	h2{
+		margin: 60px 0 0 0;
+	}
+	.btn{
+		margin-top: .5em;
+	}
+	img{
+		width: 100%;
+		fill: #cca346;
+	}
 }
