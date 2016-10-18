@@ -45,8 +45,9 @@ h2 {
   line-height: 1em; }
 
 h3 {
-  margin-bottom: 0;
-  padding: 0; }
+  padding-bottom: .25em;
+  border-bottom: 3px double #f7d68b;
+  margin-bottom: .15em; }
 
 h3 + p {
   margin-top: 0; }
@@ -255,3 +256,6 @@ input, label {
 
 input {
   padding: 9px; }
+
+.flower-bg {
+  background-image: url(../img/ge-flower-bg.jpg); }

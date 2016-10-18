@@ -2539,6 +2539,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ge-flower-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86530,
+		"inputAbbreviatedPath": "\/img\/ge-flower-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/ge-flower-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ge-RSVP.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5022,
+		"inputAbbreviatedPath": "\/img\/ge-RSVP.png",
+		"outputAbbreviatedPath": "\/img\/ge-RSVP.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/plants.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

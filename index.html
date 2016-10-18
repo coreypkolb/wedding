@@ -61,12 +61,12 @@
             <h1 data-aos="fade-up" data-aos-duration="100000" ><span class="topper">Stephanie <span class="quotes joiner">and</span> Corey </span><br><span class="mid intro quotes">Gettin' Hitched</span> <br><span class="bottom">11/18/2016</span></h1>
             
         </header>
-        <div class="cta">
+       <!--  <div class="cta">
           <div class="">
             <h2 class="quotes">Join Us</h2>
              <a class="btn" href="#rsvp">RSVP Now</a>
            </div>
-        </div>
+        </div> -->
 
         <main class="wrapper main-content">
             <div class="grid">
@@ -139,7 +139,7 @@
 
                 <div class="grid__item lap--one-half  desk--one-half">
                     <div class="img-wrap left">
-                        <img data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="center-bottom" style="width: 100%;" src="img/steph-corey-3.jpg" >
+                        <img data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="center-bottom" style="width: 100%;" src="img/steph-corey-3.gif" >
                     </div>
                 </div>
 
@@ -154,31 +154,42 @@
 
                 </div>
             </div>
-            <div id="rsvp" class="grid ">
-                <div class="grid__item lap--one-whole  desk--one-whole">
-                  <h2>RSVP</h2>
-                </div>
-                <form id="input-form" action="" method="POST" target="no-target">
-                  <div class="grid__item form-group lap--one-third  desk--one-third">
-                    <label>Full Name</label>
-                    <input id="input-name" name="name">
-                  </div>
-                  <div class="grid__item form-group lap--one-third  desk--one-third">
-                    <label>Name of Guest(s)</label>
-                    <input type="number" id="input-guests" name="guests">
-                  </div>
-                  <div class="grid__item form-group lap--one-third  desk--one-third">
-                    <label>Number Attending</label>
-                    <input id="input-attending" name="attending">
-                  </div>
-                  <div class="grid__item form-group lap--one-third  desk--one-third">
-                    <input class="btn" type="submit" value="RSVP" id="form-submit">
-                  </div>
-                </form>
+            </main>
+            
+            <div class="flower-bg">
+                <main class="wrapper">
+                <div id="rsvp" class="grid ">       
+                      <div class="grid__item lap--one-whole  desk--one-whole">
+                        <h2>RSVP</h2>
+                      </div>
+                      <div class="grid__item desk--one-third">
+                        <img src="img/ge-RSVP.png" />
+                      </div>
+                      <form id="input-form" action="" method="POST" target="no-target">
+                        <div class="grid__item form-group lap--one-third  desk--one-third">
+                          <label>Full Name</label>
+                          <input id="input-name" name="name">
+                        </div>
+                        <div class="grid__item form-group lap--one-third  desk--one-third">
+                          <label>Name of Guest(s)</label>
+                          <input type="number" id="input-guests" name="guests">
+                        </div>
+                        <div class="grid__item form-group lap--one-third  desk--one-third">
+                          <label>Number Attending</label>
+                          <input id="input-attending" name="attending">
+                        </div>
+                        <div class="grid__item form-group lap--one-third  desk--one-third">
+                          <input class="btn" type="submit" value="RSVP" id="form-submit">
+                        </div>
+                      </form>
+                    </div>
+                    <h2 id="input-feedback"></h2>
+                </main>
               </div>
-              <h2 id="input-feedback"></h2>
-            </div>
-    </main>
+
+            
+          
+
 
       <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
 
