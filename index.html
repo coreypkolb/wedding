@@ -158,65 +158,16 @@
             
             <div class="flower-bg">
                 <main class="wrapper">
-                <div id="rsvp" class="grid ">       
-                      <div class="grid__item lap--one-whole  desk--one-whole">
+                  <div id="rsvp" class="grid ">       
+                    <div class="grid__item lap--one-whole  desk--one-whole">
                         <h2>RSVP</h2>
-                      </div>
-                      <div class="grid__item desk--one-third">
-                        <img src="img/ge-RSVP.png" />
-                      </div>
-                      <form id="input-form" action="" method="POST" target="no-target">
-                        <div class="grid__item form-group lap--one-third  desk--one-third">
-                          <label>Full Name</label>
-                          <input id="input-name" name="name">
-                        </div>
-                        <div class="grid__item form-group lap--one-third  desk--one-third">
-                          <label>Name of Guest(s)</label>
-                          <input type="number" id="input-guests" name="guests">
-                        </div>
-                        <div class="grid__item form-group lap--one-third  desk--one-third">
-                          <label>Number Attending</label>
-                          <input id="input-attending" name="attending">
-                        </div>
-                        <div class="grid__item form-group lap--one-third  desk--one-third">
-                          <input class="btn" type="submit" value="RSVP" id="form-submit">
-                        </div>
-                      </form>
                     </div>
-                    <h2 id="input-feedback"></h2>
+                    <div class="grid__item desk--one-third">
+                        <img src="img/ge-RSVP.png" />
+                    </div>
+                  </div>
                 </main>
-              </div>
-
-            
-          
-
-
-      <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
-
-      <script>
-
-        $('#input-form').one('submit',function(){
-          var input_name = encodeURIComponent($('#input-name').val());
-          var input_guests = encodeURIComponent($('#input-guests').val());
-          var input_attending = encodeURIComponent($('#input-attending').val());
-
-          var name = "entry.1943801026";
-          var guests = "entry.495581139";
-          var attending = "entry.248638997";
-
-          var baseURL = 'https://docs.google.com/forms/d/1-wZCwUfw3tfFWW1DGuRVe1xtPJjSsRijnPfQx0F6_sw/formResponse?';
-
-          var submitRef = '&submit=Submit';
-          var submitURL = (baseURL + name + "=" + input_name + "&" + guests + "=" + input_guests  + "&" + attending + "=" + input_attending + submitRef);
-          console.log(submitURL);
-          $(this)[0].action=submitURL;
-          $('#input-feedback').text('Thank You!');
-          $('#input-form').hide();
-        });
-
-      </script>
-        
-      <h2></h2>
+              </div>      
       <script>
           AOS.init();
       </script>
