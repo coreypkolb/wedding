@@ -159,11 +159,11 @@ header {
   backface-visibility: hidden; }
   @media only screen and (max-width: 400px) {
     .copy {
-      padding: 0 24px; } }
+      padding: 24px 24px 0; } }
 
 .img-wrap {
   position: relative;
-  margin-bottom: 2em; }
+  margin-bottom: 3em; }
   .img-wrap:before {
     content: '';
     position: absolute;
@@ -269,9 +269,15 @@ input {
   .flower-bg.grid {
     margin-bottom: 0; }
   .flower-bg h2 {
-    margin: 100px 0 0 0; }
+    margin: 100px 0 0 0;
+    text-align: center; }
+    @media only screen and (max-width: 400px) {
+      .flower-bg h2 {
+        margin: 30px;
+        font-size: 3em; } }
   .flower-bg .btn {
-    margin-top: .5em; }
+    margin-top: .5em;
+    margin: 0 auto; }
   .flower-bg img {
     width: 100%;
     fill: #cca346; }
