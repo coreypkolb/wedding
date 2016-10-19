@@ -177,6 +177,11 @@ header{
 .grid__item{
 	float: left;
 }
+.pull{
+	.grid__item{
+		float: right;
+	}
+}
 .copy{
 	padding: 0 80px 80px;
 	position: relative;
